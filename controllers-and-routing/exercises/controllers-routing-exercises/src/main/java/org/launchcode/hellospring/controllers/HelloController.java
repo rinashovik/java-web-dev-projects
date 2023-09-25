@@ -19,7 +19,7 @@ public class HelloController {
     @ResponseBody
     public String helloForm()  {
 
-        String html = "<form method='post'>" +
+        String html = "<form action='hello' method='post'>" +
                 "<input type = 'text' name = 'name' />" +
                 "<select name = 'language'>" +
                 "<option value = 'english'>English</option>" +
